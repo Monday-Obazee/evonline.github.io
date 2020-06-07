@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8eaa0a7b1b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/newcart.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>Everything Online|Home</title>
+</head>
+<body>
+        <header class="header">
+                <div class="container nav-menu-container">
+                    <div id="logo">
+                        <h1>
+                            <div class="menu-icon" onclick="openNav()"><i class="fas fa-bars"></i></div>
+                            <a href="#" class="logo"> EvOnline </a>
+                        </h1>
+                    </div>
+                    <div class="nav-menu">
+                        <a href="newlandingpage.html" class="nav-item">HOME</a>
+                        <a href="https://everyonlinemerchants.netlify.app" class="nav-item">BECOME A MERCHANT</a>
+                        <a href="contact.html" class="nav-item">CONTACT</a>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="icon" id="myBtn"><i class="fas fa-shopping-cart"></i></a>
+                        <!-- <a href="#" class="icon hrt"><i class="fas fa-heart"></i></a> -->
+                        <a href="signup.html" class="login-button"> LOGOUT</a>
+                    </div>
+                </div>
+                <div class="flex-center">
+                    <h1 class="bg-content">
+                        CART LIST
+                    </h1>
+                </div>
+        </header>
+        <main class="section">
+            <div class="wrap">
+
+                <header class="cart-header cf">
+                    <strong>Items in Your Cart</strong>
+                    <!-- <span class="btn">Checkout</span> -->
+                </header>
+                <div class="bonus-products">
+                    <strong>EverythingOnline</strong>
+        
+                </div>
+                <!-- Container carrying the cart items -->
+                <div class="cart-table">
+                    <ul id="cart-container">
+
+                    </ul>   
+                </div>
+                <div class="sub-table cf">
+                    <div class="summary-block">
+                        <div class="sb-promo">
+                            <input type="text" placeholder="Enter Delivery Address" />
+                        </div>
+                        <ul>
+                            <li class="subtotal"><span class="sb-label">Subtotal</span><span class="sb-value">₦ <span id="overall-price"></span></span></li>
+                            <li class="shipping"><span class="sb-label">Shipping</span><span class="sb-value">n/a</span></li>
+                            <li class="tax"><span class="sb-label">Tax | 5% <span class="sb-value">₦ <span id="tax-value"> </span></span></li>
+                            <li class="tax-calculate"><input type="text" value="06484" class="tax" /><span
+                                    class="btn">Calculate</span></li>
+                            <li class="grand-total"><span class="sb-label">Total</span><span class="sb-value">₦ <span id="overall-total"> </span></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copy-block">
+                        <p>Items will be saved in your cart for 30 days. To save items longer, add them to your <a href="#">Wish
+                                List</a>.</p>
+                        <p class="customer-care">
+                            Call us M-F 8:00 am to 4 pm CAT<br />
+                            (234)-812-812-0941 or <a href="#">contact us</a>. <br />
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="cart-footer cf">
+                    <span class="btn">Checkout</span>
+                    <span class="cont-shopping"><i class="i-angle-left"></i>Continue Shopping</span>
+                </div>
+            </div>
+            
+        </main>
+        <!--Whole Footer-->
+        <footer class="main-footer">
+            <div class="newsletter" >
+                <h5>Alert - Delivering the latest product trends straight to your inbox.
+                </h5>
+                <form>
+                    <div class="suscribe">
+                        <input type="email" name="email" id="email" placeholder="Your email">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                    <p>We’ll never share your email address with a third-party.
+                    </p>
+                </form>
+            </div>
+
+            <div class="middle-footer">
+                <div>
+                    <h3>Contact Us</h3>
+                    <p><a href="contact.html">Contact Everythingonline</a></p>
+                </div>
+
+                <div>
+                    <h3>Buy On Our Website</h3>
+                    <p><a href="signup.html">Categories</a></p>
+                </div>
+
+                <div>
+                    <h3>Sell on Our Website</h3>
+                    <p><a href="https://everyonlinemerchants.netlify.app">Supplier Memberships</a></p>
+                </div>
+
+                <div>
+                    <h3>Top Categories</h3>
+                    <p><a href="newlandingpage.html">Mobile & PC</a></p>
+                    <p><a href="newlandingpage.html">Clothing</a></p>
+                    <p><a href="newlandingpage.html">Footwear</a></p>
+                </div>
+            </div>
+        
+            <hr>
+
+            <div class="social-media">
+                <div>
+                
+                </div>
+
+                <div>
+                    <div class="media">
+                        <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                
+                </div>
+            </div>
+            
+            <div class="lower-footer1">
+                <span class="browse">
+                    <span>Browse Alphabetically:</span>
+                    <span><a href="shop.html">Shop |</a></span>
+                    <span><a href="https://everyonlinemerchants.netlify.app">Wholesalers</a></span>
+                </span>
+            </div>
+            
+            <!--<div class="lower-footer2">
+                <span class="policy">
+                    <h4>Product Listing Policy</span>
+                        <span></span><a href="#">- Intellectual Property Preotection</a></span>
+                        <span></span><a href="#">- Privacy Policy</a></span>
+                        <span><a href="#">- Term of Use</a></span>
+                        <span><a href="#">- User Information</a></span>
+                        <span><a href="#">- Legal Enquiry Guide</a></span>
+                </span>
+            </div>-->
+                <div class="base-footer">
+                    <p> &copy;2019-2020 Everythingonline.com. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+            <!-- <footer class="section">
+                <div class="container">
+                    <div class="footer-subscribe">
+                        <h4>Subscribe to our News letter to get latest info about promotions.</h4>
+                        <input type="text" placeholder="Input your email">
+                        
+                    </div>
+                    <div class="row">
+                        <div style="padding: 0px 10px 0px 0px;" class="col-4">
+                            <div id="logo">
+                                <h1><a href="#" class="logo"> EvOnline </a></h1>
+                            </div>
+                                <p class="about-footer">Everything Online offers you the great opportunities to maximize your shopping experience by providing you direct access to real time dealers of top products in Nigeria and beyond. <br>
+                                It doesn't just end with buyers alone, We are also passionate about increasing sales of business owners by empowering them with real time access to customers around Nigeria.  </p>
+                        </div>
+                        <div class="footer-categories col-4">
+                            <h3>TOP CATEGORIES</h3>
+                            <div class="footer-nav-menu">
+                                <a href="#" class="nav-item">Agro Products</a>
+                                <a href="#" class="nav-item">Electronics</a>
+                                <a href="#" class="nav-item">Laptops</a>
+                                <a href="#" class="nav-item">Personal Care</a>
+                                <a href="#" class="nav-item">Fashion</a>
+                                <a href="#" class="nav-item">School Supplies</a>
+                            </div>
+                        </div>
+                        <div class="col-4 footer-menu">
+                            <h3> Menu </h3>
+                            <div class="footer-nav-menu">
+                                <a href="#" class="nav-item">HOME</a>
+                                <a href="#" class="nav-item">MERCHANT SHOP</a>
+                                <a href="#" class="nav-item">BECOME A MERCHANT</a>
+                                <a href="contact.html" class="nav-item">CONTACT US</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer> -->
+        <div id="mySidenav" class="sidenav">
+            <h1 class="logo"> EvOnline </h1>
+            <hr>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="newlandingpage.html"><i class="fas fa-home nav-icon"></i><span class="nav-text">HOME</span></a>
+            <!-- <a href="#"><i class="fas fa-shopping-bag nav-icon"></i><span class="nav-text">SHOP</span></a> -->
+            <a href="https://everyonlinemerchants.netlify.app"><i class="fas fa-truck nav-icon"></i><span class="nav-text">BECOME A MERCHANT</span></a>
+            <a href="contact.html"><i class="fas fa-address-book nav-icon"></i><span class="nav-text">CONTACT</span></a>
+            <a href="signup.html"><i class="fas fa-sign-in-alt nav-icon"></i><span class="nav-text">LOGIN</span></a>
+        </div>
+        <script src="./javascript/cart.js"></script>
+</body>
+</html>
